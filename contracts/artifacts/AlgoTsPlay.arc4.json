@@ -1,0 +1,44 @@
+{
+  "name": "AlgoTsPlay",
+  "desc": "",
+  "methods": [
+    {
+      "name": "itxnSendAssetCreation",
+      "args": [],
+      "desc": "",
+      "returns": {
+        "type": "uint64",
+        "desc": ""
+      }
+    },
+    {
+      "name": "itxnSendAssetTransfer",
+      "args": [
+        {
+          "name": "asset",
+          "type": "asset",
+          "desc": ""
+        },
+        {
+          "name": "receiver",
+          "type": "address",
+          "desc": ""
+        }
+      ],
+      "desc": "",
+      "returns": {
+        "type": "void",
+        "desc": ""
+      }
+    },
+    {
+      "name": "createApplication",
+      "desc": "",
+      "returns": {
+        "type": "void",
+        "desc": ""
+      },
+      "args": []
+    }
+  ]
+}
